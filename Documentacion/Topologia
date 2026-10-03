@@ -1,0 +1,61 @@
+# Topología de la infraestructura
+
+## Descripción
+
+La infraestructura está compuesta por dos sitios conectados mediante
+un enlace VPN Site-to-Site.
+
+Cada sitio dispone de un FortiGate y un switch Cisco.
+
+Los switches Cisco proporcionan conectividad entre los dispositivos
+de red y los equipos finales.
+
+## Conexiones de los switches
+
+### Switch del lado 1
+
+- GigabitEthernet0/0 → FortiGate 1
+- GigabitEthernet0/1 → Usuario
+
+### Switch del lado 2
+
+- GigabitEthernet0/0 → FortiGate 2
+- GigabitEthernet0/1 → Servidor Web
+
+## Diagrama
+
+                         ISP
+                    ┌───────────┐
+                    │ INTERNET  │
+                    └─────┬─────┘
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+        IP Pública 1              IP Pública 2
+             │                         │
+       ┌─────▼─────┐             ┌─────▼─────┐
+       │ FortiGate │════ VPN ════│ FortiGate │
+       │     1     │ Site-to-Site│     2     │
+       └─────┬─────┘             └─────┬─────┘
+             │ Gi0/0                   │ Gi0/0
+       ┌─────▼─────┐             ┌─────▼─────┐
+       │  Switch 1 │             │  Switch 2 │
+       │   Cisco   │             │   Cisco   │
+       └─────┬─────┘             └─────┬─────┘
+             │ Gi0/1                   │ Gi0/1
+             │                         │
+       ┌─────▼─────┐             ┌─────▼─────┐
+       │  Usuario  │             │Web Server │
+       │  VLAN 10  │             │  HTTPS    │
+       │    /25    │             │    /28    │
+       └───────────┘             └───────────┘
+
+## Flujo de comunicación
+
+Usuario
+→ Switch Cisco 1
+→ FortiGate 1
+→ VPN Site-to-Site
+→ FortiGate 2
+→ Switch Cisco 2
+→ Servidor Web
