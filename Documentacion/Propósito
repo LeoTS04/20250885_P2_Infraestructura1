@@ -1,0 +1,24 @@
+## Objetivo
+
+El objetivo de la Infraestructura 1 es comunicar un usuario con un
+servidor Web mediante un enlace VPN Site-to-Site establecido entre
+dos FortiGate.
+
+También se debe comprobar que la comunicación entre el usuario y
+el servidor solamente funciona cuando la VPN se encuentra activa.
+
+## Objetivos específicos
+
+- Configurar dos FortiGate mediante GUI.
+- Configurar la conectividad entre ambos sitios.
+- Configurar una VPN Site-to-Site.
+- Configurar NAT.
+- Configurar una red de usuarios /25.
+- Implementar VLAN 10.
+- Configurar DHCP para los usuarios.
+- Configurar un servidor Web con HTTPS utilizando una red /28.
+- Configurar los switches Cisco.
+- Realizar pruebas de conectividad.
+- Realizar traceroute hacia el servidor.
+- Comprobar la comunicación con la VPN activa.
+- Comprobar la pérdida de comunicación con la VPN desactivada.
