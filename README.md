@@ -41,7 +41,9 @@ GigabitEthernet0/1 se conecta hacia el servidor o usuario.
 
 ## 🌐 Topología
 
-![Topología de red](02-Diagramas/topologia-fisica.png)
+<img width="521" height="565" alt="image" src="https://github.com/user-attachments/assets/0330df03-30d1-480e-babf-adced80084a6" />
+
+
 
 ---
 
