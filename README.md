@@ -49,7 +49,7 @@ GigabitEthernet0/1 se conecta hacia el servidor o usuario.
 
 ## 📚 Documentación
 
-- [Propósito](01-Documentacion/01-Proposito.md)
+- [Propósito](Documentacion/Propósito)
 - [Topología](01-Documentacion/02-Topologia.md)
 - [Direccionamiento IP](01-Documentacion/03-Direccionamiento-IP.md)
 - [Configuración de FortiGate](01-Documentacion/04-Configuracion-FortiGate.md)
