@@ -1,0 +1,15 @@
+# Direccionamiento IP
+
+| Dispositivo | Interfaz |    IP        | Máscara | Gateway    |
+| FortiGate 1 |    WAN   | 203.0.88.2   |   /30   | 203.0.88.1 |
+| FortiGate 1 |    LAN   | 10.88.5.1    |   /25   |    —       |
+| FortiGate 2 |    WAN   | 203.0.88.6   |   /30   | 203.0.88.5 |
+| FortiGate 2 |    LAN   | 10.88.5.1    |   /28   |    —       |
+|  Switch 1   |   Gi0/0  |    —         |    —    |    —       |
+|  Switch 1   |   Gi0/1  |    —         |    —    |    —       |
+|  Switch 1   |  Vlan10  |    —         |    —    |    —       |
+|  Switch 2   |   Gi0/0  |    —         |    —    |    —       |
+|  Switch 2   |   Gi0/1  |    —         |    —    |    —       |
+|  Switch 2   |  Vlan20  |    —         |    —    |    —       |
+|  Usuario    |    NIC   |   DHCP       |   /25   | 10.88.5.1  |
+| Web Server  |    NIC   | 10.88.5.3    |   /28   | 10.88.5.1  |
