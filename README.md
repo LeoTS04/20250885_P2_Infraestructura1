@@ -49,16 +49,8 @@ GigabitEthernet0/1 se conecta hacia el servidor o usuario.
 
 ## 📚 Documentación
 
-- [Propósito](Documentacion/Propósito)
-- [Topología](01-Documentacion/02-Topologia.md)
-- [Direccionamiento IP](01-Documentacion/03-Direccionamiento-IP.md)
-- [Configuración de FortiGate](01-Documentacion/04-Configuracion-FortiGate.md)
-- [Configuración de Switches](01-Documentacion/05-Configuracion-Switches.md)
-- [Servidor Web](01-Documentacion/06-Configuracion-Servidor-Web.md)
-- [Usuarios](01-Documentacion/07-Configuracion-Usuarios.md)
-- [VPN Site-to-Site](01-Documentacion/08-VPN-Site-to-Site.md)
-- [NAT](01-Documentacion/09-NAT.md)
-- [Pruebas](01-Documentacion/10-Pruebas.md)
+- [Documentacion](Documentacion)
+
 
 ---
 
@@ -66,7 +58,7 @@ GigabitEthernet0/1 se conecta hacia el servidor o usuario.
 
 Los running-config de los dispositivos utilizados se encuentran en:
 
-`03-Configuraciones/`
+`Documentacion`
 
 ---
 
@@ -74,4 +66,4 @@ Los running-config de los dispositivos utilizados se encuentran en:
 
 Las evidencias de configuración y pruebas se encuentran en:
 
-`05-Evidencias/`
+`Documentacion`
