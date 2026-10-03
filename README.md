@@ -2,7 +2,7 @@
 
 ## 🎥 Video demostrativo
 
-[▶️ Ver video demostrativo]([ENLACE_DEL_VIDEO](https://itlaedudo-my.sharepoint.com/:v:/g/personal/20250885_itla_edu_do/IQDQO4M0s3gORIx395wP4CiBAfPVDv1NKQBRSCM7lypT-Kc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KNyizC))
+[▶️ Ver video demostrativo]((https://itlaedudo-my.sharepoint.com/:v:/g/personal/20250885_itla_edu_do/IQDQO4M0s3gORIx395wP4CiBAfPVDv1NKQBRSCM7lypT-Kc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KNyizC))
 
 ---
 
